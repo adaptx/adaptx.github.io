@@ -1,2 +1,11 @@
 theme: jekyll-theme-slate
 baseurl: /
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values: 
+      layout: "default"
+      author: "徐洲"
