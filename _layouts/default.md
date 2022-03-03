@@ -7,8 +7,8 @@
     <title>{{ page.title }}</title>
 </head>
 <body>
-    {{ page.title }}
+    ## {{ page.title }}
     {{ content }}
-    <p>{{ page.date | date_to_string }}</p>
+    {{ page.date | date_to_string }}
 </body>
 </html>
