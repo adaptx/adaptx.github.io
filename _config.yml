@@ -1,1 +1,19 @@
 theme: jekyll-theme-cayman
+# Setup
+title:        xz's Blog
+tagline:      学以致用
+baseurl:      ""
+paginate:     1
+locale:       "zh-cn"
+
+# About/contact
+author:
+  name:       xz
+  url:        http://adaptx.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
