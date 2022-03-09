@@ -1,11 +1,1 @@
 theme: jekyll-theme-cayman
-baseurl: /
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values: 
-      layout: "default"
-      author: "徐洲"
