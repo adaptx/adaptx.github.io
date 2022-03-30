@@ -20,3 +20,8 @@ markdown: kramdown
 
 # 目录结构
 source:      .
+
+permalink: /:year/:month/:day/:title
+
+# 当修改文件时重新生产站点
+auto: true
