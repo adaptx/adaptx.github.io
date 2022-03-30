@@ -17,3 +17,6 @@ gems:
 
 #Others
 markdown: kramdown
+
+# 目录结构
+source:      .
