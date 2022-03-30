@@ -21,7 +21,11 @@ markdown: kramdown
 # 目录结构
 source:      .
 
+# URL 路径
+# 默认就是下面这样的
 # permalink: /:year/:month/:day/:title
 
 # 当修改文件时重新生产站点
 auto: true
+
+ typora-root-url: assets
