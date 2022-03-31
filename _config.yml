@@ -28,4 +28,4 @@ source:      .
 # 当修改文件时重新生产站点
 auto: true
 
- typora-root-url: ..
+# typora-root-url: ..
