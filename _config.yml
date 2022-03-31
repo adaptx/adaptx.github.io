@@ -34,22 +34,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-<<<<<<< Updated upstream
-#Others
-markdown: kramdown
-
-# 目录结构
-source:      .
-
-# URL 路径
-# 默认就是下面这样的
-# permalink: /:year/:month/:day/:title
-
-# 当修改文件时重新生产站点
-auto: true
-
- typora-root-url: ..
-=======
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -69,4 +53,3 @@ auto: true
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
->>>>>>> Stashed changes
