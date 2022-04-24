@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>EAC问题及解决办法记录 | XZ&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="使用IE浏览器无法导入CPC官文。 2022-03-03  问题描述：云上服务器中，收发管理&#x2F;官文登记&#x2F;从CPC获取官文&#x2F;查询点击查询按钮后，一直在转圈圈，无法获取。 尝试过程： 重启IE浏览器，无效。 重启服务器端的EAC服务，无效。 重启本地客户端电脑，无效。 重启服务器电脑，无效。 开启本地旧服务器，有效，排除CPC和本地客户端的问题。 查看官方cpc网站，无相关维护通知。 查看到本地旧服">
+<meta property="og:type" content="article">
+<meta property="og:title" content="EAC问题及解决办法记录">
+<meta property="og:url" content="http://example.com/2022/03/03/EAC%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%E8%AE%B0%E5%BD%95/index.html">
+<meta property="og:site_name" content="XZ&#39;s Blog">
+<meta property="og:description" content="使用IE浏览器无法导入CPC官文。 2022-03-03  问题描述：云上服务器中，收发管理&#x2F;官文登记&#x2F;从CPC获取官文&#x2F;查询点击查询按钮后，一直在转圈圈，无法获取。 尝试过程： 重启IE浏览器，无效。 重启服务器端的EAC服务，无效。 重启本地客户端电脑，无效。 重启服务器电脑，无效。 开启本地旧服务器，有效，排除CPC和本地客户端的问题。 查看官方cpc网站，无相关维护通知。 查看到本地旧服">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-03-02T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-03-30T17:10:10.597Z">
+<meta property="article:author" content="xz">
+<meta property="article:tag" content="专利">
+<meta property="article:tag" content="EAC">
+<meta property="article:tag" content="EAC管理">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="../../../../atom.xml" title="XZ&#39;s Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="../../../../css/style.css">
+
+<meta name="generator" content="Hexo 5.4.1"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="../../../../index.html" id="logo">XZ&#39;s Blog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="../../../../index.html">Home</a>
+        
+          <a class="main-nav-link" href="../../../../archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="../../../../atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-EAC问题及解决办法记录" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="" class="article-date">
+  <time datetime="2022-03-02T16:00:00.000Z" itemprop="datePublished">2022-03-03</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="../../../../categories/EAC/">EAC</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      EAC问题及解决办法记录
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ol>
+<li><p>使用IE浏览器无法导入CPC官文。 2022-03-03</p>
+<ul>
+<li>问题描述：云上服务器中，<code>收发管理/官文登记/从CPC获取官文/查询</code>点击<code>查询</code>按钮后，一直在转圈圈，无法获取。</li>
+<li>尝试过程：<ol>
+<li>重启IE浏览器，无效。</li>
+<li>重启服务器端的EAC服务，无效。</li>
+<li>重启本地客户端电脑，无效。</li>
+<li>重启服务器电脑，无效。</li>
+<li>开启本地旧服务器，有效，排除CPC和本地客户端的问题。</li>
+<li>查看<a target="_blank" rel="noopener" href="http://cponline.cnipa.gov.cn/">官方cpc网站</a>，无相关维护通知。</li>
+<li>查看到本地旧服务器有通讯记录，但远程服务器无通讯记录。怀疑是网络通讯问题。但云上服务器可登陆，应该没问题才对。无解。</li>
+<li>观察到第5步中，本地客户端有弹窗提示，怀疑是不是防火墙、杀毒软件的问题。</li>
+<li>使用360浏览器登陆云上服务器，进行测试，发现有弹窗，并可以查询到结果，明确是IE被屏蔽。</li>
+<li>查看360安全软件，未发现拦截记录。再次无解。</li>
+<li>尝试使用<code>EAC客户端环境修复小工具.exe</code>修复，IE可登陆，解决。</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p><code>使用IE浏览器无法导入CPC官文。</code>后续 2022-03-03</p>
+<ul>
+<li><p>问题描述：</p>
+<p>  重新打开IE后，问题复发。</p>
+</li>
+<li><p>尝试过程：</p>
+<ol>
+<li>只要重新打开IE浏览器，就无效。</li>
+<li>查看IE的<code>Internet选项/安全/自定义级别/</code>中的权限并未改变。无解。</li>
+<li>查看IE浏览器的快捷方式，发现后面加了 -extoff，意思是<strong>无加载项启动IE</strong>，删除后，即可。</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p>本机安装EAC服务器，但本机无法访问。 2022-03-08</p>
+<ul>
+<li><p>问题描述：</p>
+<p>本机安装EAC服务器，运行服务器后，输入本机IP地址，无法访问，页面为白的；但本机可以访问同局域网的其他EAC服务器。</p>
+</li>
+<li><p>尝试过程：</p>
+<ol>
+<li><p>卸载并重装，无效。</p>
+</li>
+<li><p>卸载安装的Java8环境，无效。</p>
+</li>
+<li><p>联系官方技术支持电话400-877-9090，远程控制，估计是80端口占用，修改”D:\EAC\Tomcat5.5\conf\server.xml”中的如下port，访问链接为IP:port，如我的ip是192.168.1.189，修改port为8000，则访问链接为192.168.1.189:8000，成功。</p>
+<p> <code>&lt;Service</code></p>
+<p>   <code>name=&quot;Catalina&quot;&gt;</code></p>
+<p>  <code>&lt;Connector</code></p>
+<p>​    <code>port=&quot;80&quot;</code>        //修改为其他，如8000</p>
+<p>​    <code>redirectPort=&quot;8443&quot;</code></p>
+<p>​    <code>minSpareThreads=&quot;25&quot;</code></p>
+<p>​    <code>connectionTimeout=&quot;20000&quot;</code></p>
+<p>​    <code>uRIEncoding=&quot;UTF-8&quot;</code></p>
+<p>​    <code>maxSpareThreads=&quot;150&quot;</code></p>
+<p>​    <code>maxThreads=&quot;300&quot;&gt;</code></p>
+<p>  <code>&lt;/Connector&gt;</code></p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/03/03/EAC%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%E8%AE%B0%E5%BD%95/" data-id="cl1f5gaeo0004s0exgdz807ik" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="../../../../tags/EAC/" rel="tag">EAC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="../../../../tags/EAC%E7%AE%A1%E7%90%86/" rel="tag">EAC管理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="../../../../tags/%E4%B8%93%E5%88%A9/" rel="tag">专利</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="../CPC%E5%AE%89%E8%A3%85/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          CPC安装
+        
+      </div>
+    </a>
+  
+  
+    <a href="../../01/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">hello world</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../../../categories/CAD/">CAD</a></li><li class="category-list-item"><a class="category-list-link" href="../../../../categories/EAC/">EAC</a></li><li class="category-list-item"><a class="category-list-link" href="../../../../categories/Windows/">Windows</a></li><li class="category-list-item"><a class="category-list-link" href="../../../../categories/blog%E9%83%A8%E7%BD%B2/">blog部署</a></li><li class="category-list-item"><a class="category-list-link" href="../../../../categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/CAD/" rel="tag">CAD</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/CAD%E8%AE%BE%E7%BD%AE/" rel="tag">CAD设置</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/CAD%E9%97%AE%E9%A2%98/" rel="tag">CAD问题</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/CPC/" rel="tag">CPC</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/EAC/" rel="tag">EAC</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/EAC%E7%AE%A1%E7%90%86/" rel="tag">EAC管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/Windows/" rel="tag">Windows</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/Windows%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/" rel="tag">Windows使用技巧</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/Windows%E8%AE%BE%E7%BD%AE/" rel="tag">Windows设置</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/Windows%E9%97%AE%E9%A2%98/" rel="tag">Windows问题</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/booklist/" rel="tag">booklist</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/computer/" rel="tag">computer</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/jekyll/" rel="tag">jekyll</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/%E4%B8%93%E5%88%A9/" rel="tag">专利</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/%E4%B9%A6%E5%8D%95/" rel="tag">书单</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/%E5%95%86%E6%A0%87/" rel="tag">商标</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83/" rel="tag">知识产权</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" rel="tag">计算机</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" rel="tag">设计模式</a></li><li class="tag-list-item"><a class="tag-list-link" href="../../../../tags/%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/" rel="tag">静态网站</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="../../../../tags/CAD/" style="font-size: 10px;">CAD</a> <a href="../../../../tags/CAD%E8%AE%BE%E7%BD%AE/" style="font-size: 10px;">CAD设置</a> <a href="../../../../tags/CAD%E9%97%AE%E9%A2%98/" style="font-size: 10px;">CAD问题</a> <a href="../../../../tags/CPC/" style="font-size: 10px;">CPC</a> <a href="../../../../tags/EAC/" style="font-size: 10px;">EAC</a> <a href="../../../../tags/EAC%E7%AE%A1%E7%90%86/" style="font-size: 10px;">EAC管理</a> <a href="../../../../tags/Windows/" style="font-size: 10px;">Windows</a> <a href="../../../../tags/Windows%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/" style="font-size: 10px;">Windows使用技巧</a> <a href="../../../../tags/Windows%E8%AE%BE%E7%BD%AE/" style="font-size: 10px;">Windows设置</a> <a href="../../../../tags/Windows%E9%97%AE%E9%A2%98/" style="font-size: 10px;">Windows问题</a> <a href="../../../../tags/booklist/" style="font-size: 10px;">booklist</a> <a href="../../../../tags/computer/" style="font-size: 10px;">computer</a> <a href="../../../../tags/jekyll/" style="font-size: 10px;">jekyll</a> <a href="../../../../tags/%E4%B8%93%E5%88%A9/" style="font-size: 20px;">专利</a> <a href="../../../../tags/%E4%B9%A6%E5%8D%95/" style="font-size: 10px;">书单</a> <a href="../../../../tags/%E5%95%86%E6%A0%87/" style="font-size: 10px;">商标</a> <a href="../../../../tags/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83/" style="font-size: 10px;">知识产权</a> <a href="../../../../tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" style="font-size: 20px;">计算机</a> <a href="../../../../tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" style="font-size: 10px;">设计模式</a> <a href="../../../../tags/%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/" style="font-size: 10px;">静态网站</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../../../archives/2022/03/">三月 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="../../31/jekyll%E5%AE%89%E8%A3%85/">jekyll安装</a>
+          </li>
+        
+          <li>
+            <a href="../../30/CAD%E7%9B%B8%E5%85%B3%E8%AE%BE%E7%BD%AE/">CAD相关设置</a>
+          </li>
+        
+          <li>
+            <a href="../../30/Windows%E4%BD%BF%E7%94%A8%E7%9B%B8%E5%85%B3/">Windows使用相关</a>
+          </li>
+        
+          <li>
+            <a href="../../17/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a>
+          </li>
+        
+          <li>
+            <a href="../../16/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B9%A6%E5%8D%95/">计算机书单</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2022 xz<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="../../../../index.html" class="mobile-nav-link">Home</a>
+  
+    <a href="../../../../archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="../../../../fancybox/jquery.fancybox.css">
+
+  
+<script src="../../../../fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="../../../../js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
