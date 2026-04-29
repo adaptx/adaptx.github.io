@@ -34,6 +34,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.7"
 
+#2026-4-29 添加
 # 在 Gemfile 中添加缺失的 gems（推荐）
 gem 'csv'
 gem 'base64'
