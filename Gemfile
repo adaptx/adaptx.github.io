@@ -39,3 +39,4 @@ gem "webrick", "~> 1.7"
 gem 'csv'
 gem 'base64'
 gem 'bigdecimal'
+gem "jekyll-sass-converter", "~> 3.0"  # 或直接指定 3.1.0
