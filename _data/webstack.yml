@@ -1,14 +1,41 @@
-- name: 通用搜索
+- name: 搜索
   icon: linecons-star
-  links:
-    - title: Bing
-      logo: /assets/images/logos/bing.png
-      url: https://www.bing.com/
-      description: Bing 搜索。
-    - title: Baidu
-      logo: /assets/images/logos/baidu.png
-      url: https://www.baidu.com/
-      description: 百度搜索。
+  sub:
+    - name: 国内AI
+      icon: linecons-star
+      links:
+        - title: deepseek
+          logo: /assets/images/logos/deepseek.png
+          url: https://www.deepseek.com/
+          description: DeepSeek。
+        - title: doubao
+          logo: /assets/images/logos/doubao.png
+          url: https://www.doubao.com/
+          description: 豆包。
+        - title: yuanbao
+          logo: /assets/images/logos/yuanbao.png
+          url: https://yuanbao.tencent.com/
+          description: 元宝。
+        - title: 百度文心助手
+          logo: /assets/images/logos/baidu.png
+          url: https://chat.baidu.com/
+          description: 百度文心助手。
+        - title: 文心一言
+          logo: /assets/images/logos/yiyan.png
+          url: https://yiyan.baidu.com/
+          description: 文心一言。
+
+    - name: 通用搜索
+      icon: linecons-star
+      links:
+        - title: Bing
+          logo: /assets/images/logos/bing.png
+          url: https://www.bing.com/
+          description: Bing 搜索。
+        - title: Baidu
+          logo: /assets/images/logos/baidu.png
+          url: https://www.baidu.com/
+          description: 百度搜索。
 
 - name: 常用推荐
   icon: linecons-star
